@@ -1,0 +1,15 @@
+{
+  "name": "Eleva Smart",
+  "description": "Sistema de Cartão de Ponto com Geolocalização",
+  "version": "2.0.0",
+  "buildCommand": "pnpm install && pnpm build",
+  "startCommand": "pnpm dev",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "features": {
+    "database": true,
+    "authentication": true,
+    "storage": true
+  }
+}
